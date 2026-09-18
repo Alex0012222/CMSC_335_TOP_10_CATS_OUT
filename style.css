@@ -1,0 +1,57 @@
+:root {
+    --my-size: 10px;
+    --red: 165;
+    --green: 42;
+    --blue: 42;
+    --my-favorite-color: rgb(var(--red), var(--green), var(--blue));
+}
+
+
+h3{
+    font-size: 1rem;
+}
+
+body{
+    background-image: url(cat_images/image_fb227013.jpg);
+    border-style: double;
+    border-width: 1rem;
+    height: 90rem;
+}
+
+div{
+    margin: 0rem;
+    margin-top: -1.3rem;
+    background-color: antiquewhite;
+    height: 89.9rem;
+}
+
+a{
+    border-width: 1rem;
+    border-color: var(--my-favorite-color);
+}
+
+
+table {
+    width: 10rem;
+    margin-left: 3rem;
+}
+
+
+table, td, th {
+    border: 1px solid gray;
+    text-align: center;
+    
+}
+
+p{
+    margin-left: 1rem;
+}
+
+hr{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* Try odd below (replace 2n with 3n, even, odd) */
+/* Afterwards use td instead of tr */
+tr:nth-child(2n) {background-color: var(--my-favorite-color)}
